@@ -17,4 +17,4 @@ Create a page that does the following
     
 
 # Demo
-Hands on : https://diazamaliana.github.io/gfe01079-projects/hands-on/index.html
+Hands on : https://codepen.io/diazamaliana/pen/PomZpye
