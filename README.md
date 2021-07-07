@@ -16,13 +16,13 @@ Create a page that does the following
     * A button that does nothing
     * This div should have borders outside, margins, and padding
 ### Section 2
-1. [] Create a new directory that duplicate the previous homework
-2. [] Refactor the code to add some call to get a track info. You can get the data here.
-3. [] Try to call above endpoint with a GET method, and console.log() the response
-4. [] Do alert() when there is an error
+1. [ ] Create a new directory that duplicate the previous homework
+2. [ ] Refactor the code to add some call to get a track info. You can get the data here.
+3. [ ] Try to call above endpoint with a GET method, and console.log() the response
+4. [ ] Do alert() when there is an error
     
 
 # Demo Hands On
-Section 1: https://codepen.io/diazamaliana/pen/PomZpye
-Section 2: https://codepen.io/diazamaliana/pen/XWRdZdb
+<p> Section 1: https://codepen.io/diazamaliana/pen/PomZpye
+<p> Section 2: https://codepen.io/diazamaliana/pen/XWRdZdb
 
