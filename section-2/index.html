@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Generasi Gigih Music Player</title>
+    
+        <!-- custom css file link  -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+
+        <div class="form-wrapper">
+            <h1>Create Playlist</h1>
+            
+            <form action="#" name="formList" onsubmit="addPlaylist()" method="post" required>
+        
+                <div>
+                    <label for="title">Title</label>
+                    <input class="form-input" type="text" id="title"/>
+                </div>
+                <br>
+                <div>
+                    <label for="desc">Description</label>
+                    <input class="form-input" type="text" id="desc"/>
+                </div>
+                
+                <input type="submit" value="Save">
+
+            </form>
+        </div>
+
+        <div class="song-wrapper">
+            <img src="https://images.unsplash.com/photo-1602848597941-0d3d3a2c1241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=795&q=80" alt="vinyl" width="150px">
+            <div class="song-content">
+                <h3>Title Track</h3>
+                <ul>
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Album</a></li>
+                </ul>
+                <button class="button" type="submit" id="save">Play</button>
+            </div>
+        </div>
+       
+
+        <!--JAVASCRIPT-->
+        <script src="./assets/js/main.js"></script>
+
+    </body>
+
+
+</html>
