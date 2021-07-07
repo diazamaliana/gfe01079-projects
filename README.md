@@ -1,7 +1,8 @@
 # Frontend Engineering Projects - Music Player
 Intermediate Frontend Engineering Path projects #GenerasiGigih2021
 
-## Section 1
+## Homework
+### Section 1
 Create a page that does the following
 1. [x] Have a title 
 2. [x] Have a heading1 with "Create Playlist" text 
@@ -14,7 +15,14 @@ Create a page that does the following
     * A text for Albums
     * A button that does nothing
     * This div should have borders outside, margins, and padding
+### Section 2
+1. [] Create a new directory that duplicate the previous homework
+2. [] Refactor the code to add some call to get a track info. You can get the data here.
+3. [] Try to call above endpoint with a GET method, and console.log() the response
+4. [] Do alert() when there is an error
     
 
-# Demo
-Hands on : https://codepen.io/diazamaliana/pen/PomZpye
+# Demo Hands On
+Section 1: https://codepen.io/diazamaliana/pen/PomZpye
+Section 2: https://codepen.io/diazamaliana/pen/XWRdZdb
+
