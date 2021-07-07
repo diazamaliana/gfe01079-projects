@@ -1,9 +1,9 @@
 document.getElementsByTagName("h1")[0].style.fontSize = "5vw";
 //Define the array
 const heroes = [
-	{ name: "Tony", age: 55 },
-	{ name: "Thor", age: 45 },
-	{ name: "Peter", age: 24 },
+	{ name: "Tony", age: 20 },
+	{ name: "Thor", age: 21 },
+	{ name: "Peter", age: 20 },
 ];
   
 //Create the table
