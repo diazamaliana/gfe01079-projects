@@ -22,7 +22,7 @@ Create a page that does the following
 4. [ ] Do alert() when there is an error
     
 
-# Demo Hands On
+## Demo Hands On
 <p> Section 1: https://codepen.io/diazamaliana/pen/PomZpye
 <p> Section 2: https://codepen.io/diazamaliana/pen/XWRdZdb
 
