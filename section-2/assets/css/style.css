@@ -7,6 +7,10 @@ html, body {
     font-family: sans-serif;
 }
 
+.title {
+	text-align: center;
+}
+
 form {
 	max-width: 300px;
 	padding: 10px 20px;
@@ -18,6 +22,7 @@ input, textarea{
   height: auto;
   margin: 0;
   width: 100%;
+  margin-bottom: 20px;
 
 }
 
@@ -30,6 +35,13 @@ input, textarea{
 	margin: auto 20px ;
 	padding: 20px;
 	border: 1px solid #666;
+	text-align: center;
+}
+
+.song-content ul{
+	margin: 10px auto;
+	padding: 0;
+	text-align: center;
 }
 
 .song-content li {

@@ -12,18 +12,18 @@
     <body>
 
         <div class="form-wrapper">
-            <h1>Create Playlist</h1>
+            <h1 class="title">Create Playlist</h1>
             
-            <form action="#" name="formList" onsubmit="addPlaylist()" method="post" required>
+            <form action="#" name="formList" onsubmit=" return createPlaylist()" method="post" required>
         
                 <div>
                     <label for="title">Title</label>
-                    <input class="form-title" type="text" id="title"/>
+                    <input class="form-title" type="text" id="title" placeholder="Enter song title..."/>
                 </div>
 
                 <div>
                     <label for="desc">Description</label>
-                    <textarea class="form-title" name="desc"  rows="2" id="desc"></textarea>
+                    <textarea class="form-title" name="desc"  rows="2" id="description" placeholder="Enter song description..."></textarea>
                 </div>
                 
                 <input type="submit" value="Save">
@@ -32,12 +32,12 @@
         </div>
 
         <div class="song-wrapper">
-            <img src="https://images.unsplash.com/photo-1602848597941-0d3d3a2c1241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=795&q=80" alt="vinyl" width="150px">
+            <img src="https://images.unsplash.com/photo-1602848597941-0d3d3a2c1241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=795&q=80" alt="vinyl" width="300px">
             <div class="song-content">
-                <h3>Title Track</h3>
                 <ul>
-                    <li><a href="#">Artist</a></li>
-                    <li><a href="#">Album</a></li>
+                    <h3 id="song-title">Title Track</h3>
+                    <li><a href="#" id="song-artist">Artist</a></li>
+                    <li><a href="#" id="song-album">Album</a></li>
                 </ul>
                 <button class="button" type="submit" id="save">Play</button>
             </div>
